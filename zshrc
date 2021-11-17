@@ -17,3 +17,4 @@ yt () {
 
 
 alias gpm="git checkout master;git pull origin master"
+export EDITOR=vim
