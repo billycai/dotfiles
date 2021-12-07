@@ -16,5 +16,5 @@ yt () {
 }
 
 
-alias gpm="git checkout master;git pull origin master"
+alias gpm="git checkout main;git pull origin main"
 export EDITOR=vim
