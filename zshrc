@@ -18,3 +18,10 @@ yt () {
 
 alias gpm="git checkout main;git pull origin main"
 export EDITOR=vim
+
+
+if [ "$SPIN" ]; then
+    if [ -e /etc/zsh/zshrc.default.inc.zsh ]; then
+        source /etc/zsh/zshrc.default.inc.zsh
+    fi
+fi
