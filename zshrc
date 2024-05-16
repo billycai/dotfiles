@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
 
 yt () {
-    pnpm test -- --watch
+    pnpm test --watch
 }
 
 
