@@ -17,6 +17,7 @@ yt () {
 
 
 alias gpm="git checkout main;git pull origin main"
+alias grm="git fetch origin main && git rebase origin/main"
 export EDITOR=vim
 
 
